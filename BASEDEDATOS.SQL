@@ -23,5 +23,6 @@ id bigint not null auto_increment,
 mensaje bit,
 fecha DATETIME,
 sensor int(10),
+leido TINYINT,
 primary key (id)) engine=InnoDB;
 
